@@ -1,0 +1,48 @@
+[run]
+branch = False
+source = src
+omit =
+    */.coverage*
+    */.eggs/*
+    */.git/*
+    */.hypothesis/*
+    */.idea/*
+    */.mypy_cache/*
+    */.pytest/*
+    */.pytest_cache/*
+    */.tox/*
+    */.venv/*
+    */__init__.py
+    */__pycache__/*
+    */admin.py
+    */admin/*
+    */apps.py
+    */config/*
+    */conftest.py
+    */forms.py
+    */helpers/pycharm/*
+    */manage.py
+    */managers.py
+    */miniconda3/*
+    */pycharm/
+    */pycharm/*
+    */serializers.py
+    */site-packages/*
+    */test_*.py
+    */tests.py
+    */tests/*
+    */urls.py
+    */users/*
+    */venv/*
+    docs/*
+    libs/*
+    src/scalar_mutant.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == "__main__"
+
+[html]
+directory = coverage_html
+title = Raport acoperire Proiect TSS
